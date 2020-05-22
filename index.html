@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Library</title>
+    <link rel="stylesheet" href="site.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+        type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <span id="libraryText">LIBRARY</span>
+        <div id="bookOptions">
+            <button id="reading">Reading</button>
+            <button id="completed">Completed</button>
+            <button id="dropped">Dropped</button>
+            <button id="planned">Planned</button>
+        </div>
+    </div>
+    <div id="shelf">
+            <form action="#" id="formAddBook" class="formPopup">
+                <input type="text" id="formTitle" placeholder="And Then There Were None" name="title">
+                <input type="text" id="formAuthor" placeholder="Agatha Christie" name="title">
+                <input type="text" id="formPages" placeholder="264" name="pages">
+                <div id="formButtons">
+                    <button type="button" id="formAddBookButton">Add</button>
+                    <button type="button" id="formCancelButton">Cancel</button>
+                </div>
+            </form>
+        <div class="addButtonDiv">
+            <button class="addButton">
+                <i class="fa fa-plus-circle fa-5x" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
