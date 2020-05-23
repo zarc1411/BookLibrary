@@ -37,6 +37,12 @@ function addBookToPlannedLibrary(title, author, pages, isOnScreen) {
 }
 
 addBookToReadingLibrary('And Then There Were None', 'Agatha Christie', 264, false);
+addBookToPlannedLibrary('A Man Called Ove' , 'Fredrik Backman' , 337 , false);
+addBookToPlannedLibrary('Dark Matter' , 'Blake Crouch' , 342 , false);
+addBookToPlannedLibrary('Red Russia' , 'Tanya Thompson' , 196 , false);
+addBookToCompletedLibrary('The Doomsday Conspiracy' , 'Sidney Sheldon' , 448 , false);
+addBookToCompletedLibrary('The Kite Runner' , ' Khaled Hosseini' , 371 , false);
+addBookToCompletedLibrary('Beartown' , 'Fredrik Backman' , 418 , false);
 
 function toggleFormClasses(formAddBook) {
     formAddBook.classList.toggle("formPopupCSS");
