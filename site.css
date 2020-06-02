@@ -64,8 +64,13 @@ body{
     background-color: inherit;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
+
+.fa-2x {
+    font-size: 2em;
+    grid-column: 2/3;
+}
+
 .buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
